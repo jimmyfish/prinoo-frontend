@@ -1,0 +1,164 @@
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* BUTTON STYLE */
+.btn-yellow {
+	border: 1px solid #f1c40f;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	color: #fff;
+	text-transform: uppercase;
+	padding:12.5px 50px;
+	font-weight: 700;
+}
+
+.btn-yellow:hover {
+	background:#f1c40f;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	color: #000;
+}
+
+/* WRAPPING STYLE */
+#content-1 {
+	background: #1abc9c;
+	min-height: 500px;
+	height: 85vh;
+	padding-top: 120px;
+	text-align: center;
+	z-index: -1;
+}
+
+#content-2 {
+	background: #34495e;
+	min-height: 50px;
+	height: 15vh;
+	z-index: 2;
+	position: relative;
+}
+
+#content-3 {
+	background: #ecf0f1;
+	min-height: 100px;
+	height: 100vh;
+}
+
+
+
+
+
+#content-1 h1, #content-1 h2 {
+	color: #fff;
+}
+
+#content-1 h1 small {
+	text-transform: uppercase;
+}
+
+#content-1 h2 {
+	text-transform: uppercase;
+}
+
+#content-1 .main {
+	max-width: 425px;
+	margin:0 auto;
+}
+
+#content-1 .subtitle {
+	color: #34495e;
+}
+
+#content-1 span {
+    font-family: 'Pacifico', cursive;
+    color: #000;
+}
+
+.img-btm {
+	z-index: 0;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 30px;
+}
+
+.img-right {
+	position: absolute;
+	/*left: 75%;*/
+	transform: translateX(-65%);
+	z-index: -1;
+}
+
+
+
+.bg-faded {
+	background: #1abc9c;
+}
+
+.navbar {
+	height: 100px;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    text-transform: capitalize;
+    line-height: .5em;
+    font-size: 2.5em;
+    padding:0;
+    width: 200px;
+    text-align: right;
+}
+
+.navbar-brand small {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: .3em;
+	color: #666;
+}
+
+.nav-item {
+	text-transform: uppercase;
+}
+
+.nav-item.active {
+	font-weight: 700;
+}
+
+#content-2 .main {
+	width: 100%;
+}
+
+#content-2 .main .btn, #content-2 .main h3 {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#content-2 .main .btn {
+	right: 5%;
+}
+
+#content-2 .main h3 {
+	color: #fff;
+	left: 5%;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#content-2 .main h3 span {
+	color: #000;
+	font-family: 'Pacifico';
+	font-style: italic;
+}
+
+
+/* RESPONSIVE START */
+@media screen and (min-width: 992px) {
+	.navbar-toggleable-md .navbar-collapse {
+		width: auto;
+	}
+}
