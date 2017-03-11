@@ -241,6 +241,8 @@ hr.sline {
 
 .navbar {
 	height: 100px;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
 }
 
 .navbar-brand {
@@ -321,6 +323,29 @@ hr.sline {
 .form-wrapper .btn {
 	margin-top: 20px;
 	color: #000;
+}
+
+/* LOGIN PAGE */
+#login {
+	background: #1ABC9C;
+	min-height: 500px;
+	height: 85vh;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+#login .form-wrapper {
+	width: 40%;
+}
+
+#login .form-wrapper input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+.modal .form-wrapper {
+	width: 90%;
+	margin-top: 20%;
+	box-shadow: 0 0 15px 0 #333;
 }
 
 

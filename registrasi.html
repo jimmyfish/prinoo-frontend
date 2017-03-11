@@ -24,11 +24,14 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">Fitur</a>
 					</li>
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<a class="nav-link" href="#">daftar</a>
-					</li>
+					</li> -->
 					<li class="nav-item">
 						<a class="nav-link" href="#">Masuk</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 					</li>
 					<!-- <li class="nav-item">
 											<a class="nav-link disabled" href="#">Disabled</a>
@@ -44,48 +47,48 @@
 					<form action="registrasi_submit" method="get" accept-charset="utf-8">
 						<div class="form-group">
 							<label for="email">E-mail</label>
-							<input type="email" name="email" id="email" class="form-control">
+							<input type="email" name="email" id="email" class="form-control" required>
 						</div>
 						<div class="row">
 							<div class="col">
 								<div class="form-group">
 									<label for="first-name">Nama Depan</label>
-									<input type="email" name="first-name" id="first-name" class="form-control">
+									<input type="text" name="first-name" id="first-name" class="form-control" required>
 								</div>
 							</div>
 							<div class="col">
 								<div class="form-group">
 									<label for="last-name">Nama Belakang</label>
-									<input type="email" name="last-name" id="last-name" class="form-control">
+									<input type="text" name="last-name" id="last-name" class="form-control" required>
 								</div>
 							</div>
 						</div>
 						<div class="form-group">
 							<label for="no-telp">No. Telepon</label>
-							<input type="text" name="no-telp" id="no-telp" class="form-control">
+							<input type="text" name="no-telp" id="no-telp" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label for="jenis-kelamin">Jenis Kelamin</label>
-							<select name="jenis-kelamin" class="form-control">
+							<select name="jenis-kelamin" class="form-control" required>
 								<option value="laki">Laki-laki</option>
 								<option value="perempuan">Perempuan</option>
 							</select>
 						</div>
 						<div class="form-group">
 							<label for="alamat">Alamat</label>
-							<textarea name="alamat" id="alamat" class="form-control"></textarea>
+							<textarea name="alamat" id="alamat" class="form-control" required></textarea>
 						</div>
 						<div class="form-group">
 							<label for="password">Kata sandi</label>
-							<input type="password" name="password" id="password" class="form-control">
+							<input type="password" name="password" id="password" class="form-control" required>
 						</div>
 						<div class="form-group">
 							<label for="repeat-password">Ulangi kata sandi</label>
-							<input type="password" name="repeat-password" id="repeat-password" class="form-control">
+							<input type="password" name="repeat-password" id="repeat-password" class="form-control" required>
 						</div>
 						<div class="form-check">
 							<label class="form-check-label">
-								<input type="checkbox" class="form-check-input">
+								<input type="checkbox" class="form-check-input" required>
 								Saya setuju dengan <a href="#" title="Kebijakan">Kebijakan dan Ketentuan</a> yang telah ditetapkan oleh pihak penyedia layanan.
 							</label>
 						</div>
